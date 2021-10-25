@@ -1,0 +1,4 @@
+.top-bar {
+  display: flex;
+  background-color: hsla(0, 100%, 70%, 0.3);
+}

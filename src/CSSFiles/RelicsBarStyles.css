@@ -1,0 +1,4 @@
+.relics-bar {
+    display: flex;
+    background-color: hsla(0, 100%, 90%, 0.3);
+}

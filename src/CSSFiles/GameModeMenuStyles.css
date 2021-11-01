@@ -1,0 +1,100 @@
+.menu-set-font {
+  font-family: Kreon;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 26.399999618530273px;
+  background-image: url("/src/images/Background.png");
+  width: 1920px;
+  height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.whole-table {
+  position: relative;
+  left: 30%;
+  top: 30%;
+}
+
+.standard-mode {
+  border-style: solid;
+  width: 225px;
+  height: 450px;
+  float: left;
+  background-color: #97978F;
+}
+
+.standard-mode-title {
+  font-size: 34px;
+  padding-left: 8px;
+  color: gold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.daily-climb-mode {
+  border-style: solid;
+  width: 225px;
+  height: 450px;
+  float: left;
+  margin-left: 20px;
+  background-color: #8399C2;
+}
+
+.daily-climb-title {
+  font-size: 34px;
+  padding-left: 8px;
+  color: gold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.custom-mode {
+  border-style: solid;
+  width: 225px;
+  height: 450px;
+  float: left;
+  margin-left: 20px;
+  background-color: #B39178
+}
+
+.custom-mode-title {
+  font-size: 34px;
+  padding-left: 8px;
+  color: gold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.standard-mode-desc {
+  font-size: 24px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.daily-climb-desc {
+  font-size: 24px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.custom-mode-desc {
+  font-size: 24px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.image-1 {
+  width: 210px;
+  height: 130px;
+  padding-left: 8px;
+}
+
+.image-2 {
+  width: 210px;
+  height: 130px;
+  padding-left: 8px;
+}
+
+.image-3 {
+  width: 210px;
+  height: 130px;
+  padding-left: 8px;
+}

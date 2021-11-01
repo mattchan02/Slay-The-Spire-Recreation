@@ -1,0 +1,79 @@
+.set-font {
+  font-family: Kreon;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 26.399999618530273px;
+  background-image: url("/src/images/Background.png");
+  height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.user-name {
+  position: fixed;
+  top: 20px;
+  left: 50px;
+  font-size: 36px;
+  margin-left: 45px;
+}
+
+.user-top {
+  margin-top: 16px;
+  margin-bottom: 10px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.user-bottom {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: gold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.menu-choices {
+  color: white;
+  position: fixed;
+  left: 50px;
+  top: 400px;
+  font-size: 30px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-left: 45px;
+}
+
+.title {
+  font-size: 85px;
+  position: fixed;
+  left: 50%;
+  top: 36%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.title-top {
+  float: left;
+  margin-right: 10px;
+  color: gold;
+}
+
+.title-middle {
+  margin-bottom: 30px;
+  margin-left: 10px;
+  color: gold;
+}
+
+.title-bottom {
+  margin-left: 65px;
+  color: gold;
+}
+
+.menu-button {
+  font-size: 56px;
+  margin-bottom: 30px;
+  height: 40px;
+}
+
+.menu-button:hover {
+  background-image: linear-gradient(to right, #F0F3B1, white)
+}

@@ -12,9 +12,12 @@ import Image11 from './images/Char4Button.png'
 import Image12 from './images/Heart.webp'
 import Image13 from './images/Gold.webp'
 import Image14 from './images/Background.png'
+import Image15 from './images/PotionSlot.PNG'
+import Image16 from './images/BackgroundAct1.jpeg'
+import Image17 from './images/Ironclad.png'
 
 const Images =
 [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8, Image9, Image10, Image11,
-Image12, Image13, Image14]
+Image12, Image13, Image14, Image15, Image16, Image17]
 
 export default Images

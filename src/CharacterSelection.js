@@ -85,6 +85,7 @@ class CharacterSelection extends React.Component {
                   class="char-button-1"
                   src={Images[7]}
                   onMouseEnter={this.showcaseCharacter1}
+                  onClick={this.props.renderGameStartWindow}
                   />
                 <img
                   class="char-button-2"

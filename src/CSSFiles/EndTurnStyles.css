@@ -1,0 +1,51 @@
+.endturn-whole-div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 25px;
+  margin-bottom: 140px;
+}
+
+.endturn-outer-ring {
+  display: inline-block;
+  height: 70px;
+  width: 190px;
+  background-color: grey;
+  border: 3px solid black;
+}
+
+.endturn-inner-ring {
+  display: inline-block;
+  margin-left: 7px;
+  margin-top: 6px;
+  height: 48px;
+  width: 170px;
+  background-color: #318ECE;
+  border: 4px solid #2777AF;
+}
+
+.endturn-end-text {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 32px;
+  font-family: Kreon;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 26.399999618530273px;
+  text-shadow: -2px 0 grey, 0 2px grey, 2px 0 grey, 0 -2px grey;
+  color: white;
+}
+
+.endturn-enemy-text {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 32px;
+  font-family: Kreon;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 26.399999618530273px;
+  text-shadow: -2px 0 grey, 0 2px grey, 2px 0 grey, 0 -2px grey;
+  color: white;
+}

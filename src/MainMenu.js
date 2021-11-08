@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactDOM from 'react'
+import ReactDOM from 'react-dom'
 import MainMenuStyles from './CSSFiles/MainMenuStyles.css'
 import Images from './ImageDatabase.js'
 

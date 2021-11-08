@@ -1,23 +1,17 @@
 import { createSlice} from '@reduxjs/toolkit'
 
-export const counterSlice = createSlice({
-  name: 'counter',
+export const relicSlice = createSlice({
+  name: 'relics',
   initialState: {
     value: 0,
   },
   reducers: {
-    increment: (state) => {
-      state.value += 1
-    },
-    decrement: (state) => {
-      state.value -= 1
-    },
-    incrementByAmount: (state, action) => {
-      state.value += action.payload
+    activateBurningBlood: (state) => {
+      state.haveBurningBlood = true;
     },
   },
 })
 
-export const { increment, decrement, incrementByAmount } = counterSlice.actions
+export const { activateBurningBlood } = relicSlice.actions
 
-export default counterSlice.reducer
+export default relicSlice.reducer

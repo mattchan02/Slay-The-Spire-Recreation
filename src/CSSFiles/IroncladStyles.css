@@ -1,0 +1,12 @@
+.ironclad-whole-div {
+  position: relative;
+  float: left;
+  z-index: 1;
+  margin-left: 8%;
+  margin-top: 24%;
+}
+
+.ironclad-char {
+  width: 400px;
+  length: 300px;
+}

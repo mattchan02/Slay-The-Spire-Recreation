@@ -3,10 +3,14 @@
   float: left;
   z-index: 1;
   margin-left: 8%;
-  margin-top: 24%;
+  margin-top: 26%;
 }
 
 .ironclad-char {
-  width: 400px;
-  length: 300px;
+  width: 300px;
+  length: 200px;
+}
+
+.ironclad-hp-bar {
+  
 }

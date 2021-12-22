@@ -1,14 +1,13 @@
 .endturn-whole-div {
   position: absolute;
-  bottom: 0;
-  right: 0;
-  margin-right: 25px;
-  margin-bottom: 140px;
+  top: 0%;
+  margin-left: 14px;
+  margin-top: 137px;
 }
 
 .endturn-outer-ring {
   display: inline-block;
-  height: 70px;
+  height: 62px;
   width: 190px;
   background-color: grey;
   border: 3px solid black;
@@ -18,7 +17,7 @@
   display: inline-block;
   margin-left: 7px;
   margin-top: 6px;
-  height: 48px;
+  height: 42px;
   width: 170px;
   background-color: #318ECE;
   border: 4px solid #2777AF;
@@ -27,7 +26,7 @@
 .endturn-end-text {
   margin-top: 10px;
   text-align: center;
-  font-size: 32px;
+  font-size: 24px;
   font-family: Kreon;
   font-style: normal;
   font-variant: normal;
@@ -40,7 +39,7 @@
 .endturn-enemy-text {
   margin-top: 10px;
   text-align: center;
-  font-size: 32px;
+  font-size: 24px;
   font-family: Kreon;
   font-style: normal;
   font-variant: normal;

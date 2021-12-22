@@ -5,7 +5,7 @@ import Relic1 from './images/RingoftheSnake.webp'
 import Relic2 from './images/CrackedCore.webp'
 import Relic3 from './images/PureWater.webp'
 
-const Relics =
+const RelicsImages =
 [Relic0, Relic1, Relic2, Relic3]
 
-export default Relics
+export default RelicsImages

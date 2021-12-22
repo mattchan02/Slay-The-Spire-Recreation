@@ -1,9 +1,9 @@
-import { createSlice} from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit'
 
 export const relicSlice = createSlice({
   name: 'relics',
   initialState: {
-    value: 0,
+    haveBurningBlood: true,
   },
   reducers: {
     activateBurningBlood: (state) => {

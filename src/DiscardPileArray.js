@@ -1,5 +1,3 @@
-const DiscardPileArray = [
-  0, 1, 2, 3, 4
-]
+const DiscardPileArray = []
 
 export default DiscardPileArray

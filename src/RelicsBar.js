@@ -1,29 +1,27 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import RelicsBarStyles from './CSSFiles/RelicsBarStyles.css'
-import { useSelector, useDispatch } from './'
+import RelicsImages from './RelicsDatabase.js'
+import Images from './ImageDatabase.js'
+import { useSelector, useDispatch } from 'react-redux'
+import { activateBurningBlood } from './features/counter/relicSlice.js'
 
-class RelicsBar extends React.Component {
+export function Relics() {
+  const relics = useSelector(state => state.relics)
+  const dispatch = useDispatch()
 
-
-
-  constructor() {
-    super();
-    this.state = {
-      value: 0
-    };
-  };
-
-  render() {
-    return(
-      <div class="relics-bar">
-        <p class="relics-words">Relics: </p>
-      </div>
-    )
-  }
+  return (
+    <div class="relics-bar">
+      <p class="relics-words">Relics: </p>
+      {relics.haveBurningBlood
+        ? <img src={RelicsImages[0]} />
+        : null}
+    </div>
+  )
 }
 
-export default RelicsBar
+
+export default Relics
 
 // StarterBurningBlood: false,
 // StarterRingOfTheSnake: false,

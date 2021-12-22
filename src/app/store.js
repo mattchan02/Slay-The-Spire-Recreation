@@ -1,8 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit'
-import relicReducer from '../features/counter/counterSlice'
+import relicReducer from '../features/counter/relicSlice.js'
+import topbarReducer from '../features/counter/topbarSlice.js'
 
 export default configureStore({
   reducer: {
-    counter: relicReducer
+    relics: relicReducer,
+    topbar: topbarReducer,
   },
 })

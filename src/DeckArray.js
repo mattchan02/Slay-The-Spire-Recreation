@@ -1,5 +1,20 @@
 const DeckArray = [
-  0, 1, 2, 3, 4
+  "Strike",
+  "Strike",
+  "Strike",
+  "Strike",
+  "Strike",
+  "Defend",
+  "Defend",
+  "Defend",
+  "Defend",
+  "Bash"
 ]
+
+console.log(DeckArray)
+
+function shuffle(array) {
+
+}
 
 export default DeckArray

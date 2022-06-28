@@ -1,0 +1,12 @@
+.fungi-styles {
+  position: absolute;
+  float: left;
+  z-index: 1;
+  margin-left: 53%;
+  margin-top: 27%;
+}
+
+.fungi-char {
+  width: 250px;
+  length: 180px;
+}

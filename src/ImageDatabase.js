@@ -90,6 +90,21 @@ import Image89 from './images/cards/Uppercut.webp'
 import Image90 from './images/cards/Warcry.webp'
 import Image91 from './images/cards/Whirlwind.webp'
 import Image92 from './images/cards/WildStrike.webp'
+import Image93 from './images/Acid.webp'
+import Image94 from './images/Cultist.webp'
+import Image95 from './images/Fungi.webp'
+import Image96 from './images/Jaw.webp'
+import Image97 from './images/Looter.webp'
+import Image98 from './images/Louse.webp'
+import Image99 from './images/Slaver.webp'
+import Image100 from './images/Slime.webp'
+import Image101 from './images/MapRandom.png'
+import Image102 from './images/MapShop.png'
+import Image103 from './images/MapTreasure.png'
+import Image104 from './images/MapCampfire.png'
+import Image105 from './images/MapBattle.png'
+import Image106 from './images/MapEliteBattle.png'
+import Image107 from './images/MapFinalBoss.png'
 
 const Images =
 [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8, Image9, Image10, Image11,
@@ -167,7 +182,22 @@ Image12, Image13, Image14, Image15, Image16, Image17, Image18,
   Image89,
   Image90,
   Image91,
-  Image92
+  Image92,
+  Image93,
+  Image94,
+  Image95,
+  Image96,
+  Image97,
+  Image98,
+  Image99,
+  Image100,
+  Image101,
+  Image102,
+  Image103,
+  Image104,
+  Image105,
+  Image106,
+  Image107
 ]
 
 export default Images

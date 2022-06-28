@@ -1,10 +1,9 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import MainMenu from './MainMenu.js'
 import GameModeMenu from './GameModeMenu.js'
 import GameStartWindow from './GameStartWindow.js'
 import CharacterSelection from './CharacterSelection.js'
-import AppStyles from './CSSFiles/App.css';
+import { configureStore } from './app/store.js'
 
 class App extends React.Component {
   constructor(props) {
@@ -50,7 +49,6 @@ class App extends React.Component {
   render() {
     return(
       <div>
-        
         <div>
           {this.state.handleMainMenu
           ? <MainMenu
@@ -87,12 +85,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-
-
-// {this.state.handleCharacterSelection
-// ? <CharacterSelection />
-// : null}
-// {this.state.handleGameStartWindow
-// ? <GameStartWindow />
-// : null}

@@ -1,0 +1,49 @@
+.deckbar-whole {
+  padding: 0;
+  margin: 0;
+  border: 1px solid #6C8190;
+  background-color: #6C8190;
+  font-family: Kreon;
+  font-style: normal;
+  font-variant: normal;
+  width: 1922px;
+}
+
+.deckbar-decknumber {
+  padding-left: 30px;
+  font-family: Kreon;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 22px;
+  color: white;
+}
+
+.deckbar-discardnumber {
+  padding-left: 30px;
+  font-family: Kreon;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 22px;
+  color: white;
+  float: left;
+}
+
+.deckbar-exhaustnumber {
+  padding-left: 30px;
+  font-family: Kreon;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 22px;
+  color: white;
+  float: left;
+}
+
+.deckbar-handnumber {
+  padding-left: 30px;
+  font-family: Kreon;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 22px;
+  color: white;
+  float: left;
+}

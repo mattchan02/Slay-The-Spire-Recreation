@@ -43,8 +43,23 @@ import {
   heal5damage,
   heal10damage
 } from './features/counter/topbarSlice.js'
+import {
+  WillHaveStarterBurningBlood,
+  WillNotHaveStarterBurningBlood,
+  WillHaveAkabeko,
+  WillNotHaveAkabeko,
+  WillHaveAnchor,
+  WillNotHaveAnchor,
+  WillHaveAncientTeaSet,
+  WillNotHaveAncientTeaSet,
+} from './features/counter/relicbarSlice.js'
+import {
+  ChangeMapOneToEnemyOne,
+} from './features/counter/mapzoneSlice.js'
 
 export function Ironclad() {
+  const mapzone = useSelector(state3 => state3.mapzone)
+  const relicbar = useSelector(state2 => state2.relicbar)
   const topbar = useSelector(state => state.topbar)
   const dispatch = useDispatch()
 
@@ -53,10 +68,12 @@ export function Ironclad() {
       <div>
        <img src={Images[16]} class="ironclad-char" />
       </div>
-      <div class="ironclad-hp-bar" align="right">
-      <progress id="health" color="green" value={topbar.currentHP} max={topbar.maximumHP}></progress>
-      </div>
       <div class="ironclad-status-bar">
+      Status: Placeholder Area
+      {relicbar.HaveStarterBurningBlood === 1
+      ? <div>Test if conditional can read from different reducer</div>
+      : null
+      }
       </div>
     </div>
   )

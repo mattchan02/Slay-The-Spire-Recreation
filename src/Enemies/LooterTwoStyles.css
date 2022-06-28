@@ -1,0 +1,12 @@
+.LooterTwo-styles {
+  position: absolute;
+  float: left;
+  z-index: 1;
+  margin-left: 71%;
+  margin-top: 26%;
+}
+
+.LooterTwo-char {
+  width: 250px;
+  length: 220px;
+}

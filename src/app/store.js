@@ -1,10 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit'
-import relicReducer from '../features/counter/relicSlice.js'
 import topbarReducer from '../features/counter/topbarSlice.js'
+import relicbarReducer from '../features/counter/relicbarSlice.js'
+import mapzoneReducer from '../features/counter/mapzoneSlice.js'
 
 export default configureStore({
   reducer: {
-    relics: relicReducer,
     topbar: topbarReducer,
+    relicbar: relicbarReducer,
+    mapzone: mapzoneReducer,
   },
-})
+});

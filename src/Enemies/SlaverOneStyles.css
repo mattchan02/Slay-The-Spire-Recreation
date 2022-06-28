@@ -1,0 +1,12 @@
+.slaverone-box {
+  position: absolute;
+  float: left;
+  z-index: 1;
+  margin-left: 53%;
+  margin-top: 24%;
+}
+
+.slaverone-char {
+  width: 240px;
+  length: 180px;
+}

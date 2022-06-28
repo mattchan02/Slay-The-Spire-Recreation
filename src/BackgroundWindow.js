@@ -1,7 +1,5 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import Images from './ImageDatabase.js'
-import Ironclad from './Ironclad.js'
 import BackgroundWindowStyles from './CSSFiles/BackgroundWindowStyles.css'
 
 class BackgroundWindow extends React.Component {

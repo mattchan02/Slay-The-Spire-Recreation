@@ -2,8 +2,8 @@
   position: relative;
   float: left;
   z-index: 1;
-  margin-left: 8%;
-  margin-top: 26%;
+  margin-left: 160px;
+  margin-top: 400px;
 }
 
 .ironclad-char {
@@ -11,6 +11,11 @@
   length: 200px;
 }
 
-.ironclad-hp-bar {
-  
+.ironclad-status-bar {
+  background-color: grey;
+  padding-left: 30px;
+  width: 250px;
+  font-family: Kreon;
+  font-style: normal;
+  font-variant: normal;
 }

@@ -1,0 +1,12 @@
+.lousethree-styles {
+  position: absolute;
+  float: left;
+  z-index: 1;
+  margin-left: 77%;
+  margin-top: 24%;
+}
+
+.lousethree-char {
+  width: 210px;
+  length: 160px;
+}

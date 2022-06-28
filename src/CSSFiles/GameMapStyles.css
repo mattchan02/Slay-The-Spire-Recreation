@@ -1,0 +1,12 @@
+.gamemap-box {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  padding-right: 22%;
+}
+
+.gamemap-itself {
+  height: 840px;
+  width: 400px;
+}

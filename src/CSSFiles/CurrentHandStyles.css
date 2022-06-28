@@ -1,0 +1,26 @@
+.currenthand-mainbox {
+  position: absolute;
+  width: 880px;
+  height: 220px;
+  margin-top: 600px;
+  margin-left: 35%;
+  border: 2px solid white;
+  z-index: 1;
+  background-color: grey;
+  opacity: 0.5;
+}
+
+.currenthand-titlebox {
+  height: 40px;
+  font-family: Kreon;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+
+}
+
+.currenthand-cards {
+
+}

@@ -1,0 +1,100 @@
+import { createSlice } from '@reduxjs/toolkit'
+
+export const mapzoneSlice = createSlice({
+  name: 'mapzone',
+  initialState: {
+    OpenMapZoneOne: 1,
+    OpenMapZoneTwo: 0,
+    OpenMapZoneThree: 0,
+    OpenMapZoneFour: 0,
+    OpenMapZoneFive: 0,
+    OpenMapZoneSix: 0,
+    OpenMapZoneSeven: 0,
+    OpenMapZoneEight: 0,
+    OpenMapZoneNine: 0,
+    OpenMapZoneTen: 0,
+    OpenMapZoneEleven: 0,
+    OpenMapZoneTwelve: 0,
+    OpenMapZoneThirteen: 0,
+    OpenMapZoneFourteen: 0,
+    OpenMapZoneFifteen: 0,
+    OpenMapZoneSixteen: 0,
+    OpenMapZoneSeventeen: 0,
+    OpenMapZoneEighteen: 0,
+    OpenMapZoneNineteen: 0,
+    OpenMapZoneTwenty: 0,
+    OpenMapZoneTwentyOne: 0,
+    OpenMapZoneTwentyTwo: 0,
+    OpenMapZoneTwentyThree: 0,
+    OpenMapZoneTwentyFour: 0,
+    OpenMapZoneTwentyFive: 0,
+    OpenEnemyOne: 0,
+    OpenEnemyTwo: 0,
+    OpenEnemyThree: 0,
+    OpenEnemyFour: 0,
+    OpenEnemyFive: 0,
+    OpenEnemySix: 0,
+    OpenEnemySeven: 0,
+    OpenEnemyEight: 0,
+    OpenEnemyNine: 0,
+    OpenEnemyTen: 0,
+    OpenEnemyEleven: 0,
+    OpenEnemyTwelve: 0,
+    OpenEnemyThirteen: 0,
+    OpenEnemyFourteen: 0,
+    OpenEnemyRewardsOne: 0,
+    OpenEnemyRewardsTwo: 0,
+    OpenEnemyRewardsThree: 0,
+    OpenEnemyRewardsFour: 0,
+    OpenEnemyRewardsFive: 0,
+    OpenEnemyRewardsSix: 0,
+    OpenEnemyRewardsSeven: 0,
+    OpenEnemyRewardsEight: 0,
+    OpenEnemyRewardsNine: 0,
+    OpenEnemyRewardsTen: 0,
+    OpenEnemyRewardsEleven: 0,
+    OpenEnemyRewardsTwelve: 0,
+    OpenEnemyRewardsThirteen: 0,
+    OpenEnemyRewardsFourteen: 0,
+    OpenShopOne: 0,
+    OpenShopTwo: 0,
+    OpenShopThree: 0,
+    OpenQuestionOne: 0,
+    OpenQuestionTwo: 0,
+    OpenQuestionThree: 0,
+    OpenQuestionFour: 0,
+    OpenQuestionFive: 0,
+    OpenQuestionSix: 0,
+    OpenQuestionSeven: 0,
+    OpenQuestionEight: 0,
+    OpenQuestionNine: 0,
+    OpenQuestionTen: 0,
+    OpenQuestionEleven: 0,
+    OpenQuestionTwelve: 0,
+    OpenCampOne: 0,
+    OpenCampTwo: 0,
+    OpenCampThree: 0,
+    OpenCampFour: 0,
+    OpenCampFive: 0,
+    OpenCampSix: 0,
+    OpenTreasureOne: 0,
+    OpenTreasureTwo: 0,
+    OpenBossOne: 0,
+    OpenBossTwo: 0,
+    OpenFinalBossOne: 0
+  },
+  reducers: {
+    ChangeMapOneToEnemyOne: (state) => {
+      state.OpenMapZoneOne -= 1;
+      state.OpenEnemyOne += 1;
+      console.log(state.OpenMapZoneOne);
+      console.log(state.OpenEnemyOne);
+    },
+  }
+});
+
+export const {
+  ChangeMapOneToEnemyOne
+} = mapzoneSlice.actions
+
+export default mapzoneSlice.reducer

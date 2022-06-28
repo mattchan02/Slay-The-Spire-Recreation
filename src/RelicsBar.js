@@ -4,22 +4,41 @@ import RelicsBarStyles from './CSSFiles/RelicsBarStyles.css'
 import RelicsImages from './RelicsDatabase.js'
 import Images from './ImageDatabase.js'
 import { useSelector, useDispatch } from 'react-redux'
-import { activateBurningBlood } from './features/counter/relicSlice.js'
+import {
+  WillHaveStarterBurningBlood,
+  WillNotHaveStarterBurningBlood,
+  WillHaveAkabeko,
+  WillNotHaveAkabeko,
+  WillHaveAnchor,
+  WillNotHaveAnchor,
+  WillHaveAncientTeaSet,
+  WillNotHaveAncientTeaSet,
+} from './features/counter/relicbarSlice.js'
 
 export function Relics() {
-  const relics = useSelector(state => state.relics)
+  const relicbar = useSelector(state => state.relicbar)
   const dispatch = useDispatch()
 
   return (
     <div class="relics-bar">
       <p class="relics-words">Relics: </p>
-      {relics.haveBurningBlood
-        ? <img src={RelicsImages[0]} />
-        : null}
+      {relicbar.HaveStarterBurningBlood === 1
+      ? <div>
+          <p>You have Burning Blood</p>
+        </div>
+      : null
+      }
+      {relicbar.HaveStarterAkabeko === 1
+      ? <div>
+          <p>You have Akabeko</p>
+        </div>
+      : null
+      }
+      <button onClick={() => dispatch(WillHaveStarterBurningBlood())}>Get Burning Blood</button>
+      <button onClick={() => dispatch(WillNotHaveStarterBurningBlood())}>Remove Burning Blood</button>
     </div>
   )
 }
-
 
 export default Relics
 
@@ -42,7 +61,7 @@ export default Relics
 // HaveBottledFlame: false,
 // HaveBottledLightning: false,
 // HaveBottledTornado: false,
-// HaveBrimstrone: false,
+// HaveBrimstone: false,
 // HaveBronzeScales: false,
 // HaveBustedCrown: false,
 // HaveCalipers: false,
@@ -59,26 +78,26 @@ export default Relics
 // HaveCultistHeadpiece: false,
 // HaveCursedKey: false,
 // HaveDarkstonePeriapt: false,
-// HaveDataDisk: false,
+
+
 // HaveDeadBranch: false,
 // HaveDollysMirror: false,
 // HaveDreamCatcher: false,
 // HaveDuVuDoll: false,
 // HaveEctoplasm: false,
-// HaveEmotionChip: false,
+
 // HaveEmptyCage: false,
 // HaveEnchiridion: false,
 // HaveEternalFeather: false,
 // HaveFaceOfCleric: false,
 // HaveFossilizedHelix: false,
-// HaveFrozenCore: false,
+
 // HaveFrozenEgg: false,
 // HaveFrozenEye: false,
 // HaveFusionHammer: false,
 // HaveGamblingChip: false,
 // HaveGinger: false,
 // HaveGirya: false,
-// HaveGoldPlatedCables: false,
 // HaveGoldenIdol: false,
 // HaveGremlinHorn: false,
 // HaveGremlinVisage: false,
@@ -94,6 +113,7 @@ export default Relics
 // HaveKunai: false,
 // HaveLantern: false,
 // HaveLeesWaffle: false,
+
 // HaveLetterOpener: false,
 // HaveLizardTail: false,
 // HaveMagicFlower: false,
@@ -103,8 +123,10 @@ export default Relics
 // HaveMawBank: false,
 // HaveMealTicket: false,
 // HaveMeatOnTheBone: false,
+
 // HaveMedicalKit: false,
 // HaveMembershipCard: false,
+
 // HaveMercuryHourglass: false,
 // HaveMoltenEgg: false,
 // HaveMummifiedHand: false,
@@ -114,7 +136,7 @@ export default Relics
 // HaveNecronomicon: false,
 // HaveNeowsLament: false,
 // HaveNilrysCodex: false,
-// HaveNinjaScroll: false,
+
 // HaveNuclearBattery: false,
 // HaveNunchaku: false,
 // HaveOddMushroom: false,
@@ -136,13 +158,13 @@ export default Relics
 // HavePocketwatch: false,
 // HavePotionBelt: false,
 // HavePrayerWheel: false,
+
 // HavePreservedInsect: false,
 // HavePrismaticShard: false,
 // HaveQuestionCard: false,
 // HaveRedMask: false,
 // HaveRedSkull: false,
 // HaveRegalPillow: false,
-// HaveRingOfTheSerpent: false,
 // HaveRunicCapacitor: false,
 // HaveRunicCube: false,
 // HaveRunicDome: false,
@@ -156,6 +178,7 @@ export default Relics
 // HaveSlingOfCourage: false,
 // HaveSmilingMask: false,
 // HaveSneckoEye: false,
+
 // HaveSneckoSkull: false,
 // HaveSozu: false,
 // HaveSpiritPoop: false,
@@ -163,7 +186,7 @@ export default Relics
 // HaveStrangeSpoon: false,
 // HaveStrawberry: false,
 // HaveSundial: false,
-// HaveSymbioticVirus: false,
+
 // HaveTheAbacus: false,
 // HaveTheBoot: false,
 // HaveTheCourier: false,
@@ -187,4 +210,4 @@ export default Relics
 // HaveWhetstone: false,
 // HaveWhiteBeastStatue: false,
 // HaveWingBoots: false,
-// HaveWristBlade: false
+//

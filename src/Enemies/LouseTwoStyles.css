@@ -1,0 +1,12 @@
+.lousetwo-styles {
+  position: absolute;
+  float: left;
+  z-index: 1;
+  margin-left: 64%;
+  margin-top: 22%;
+}
+
+.lousetwo-char {
+  width: 220px;
+  length: 160px;
+}

@@ -1,0 +1,12 @@
+.fungitwo-styles {
+  position: absolute;
+  float: left;
+  z-index: 1;
+  margin-left: 69%;
+  margin-top: 24%;
+}
+
+.fungitwo-char {
+  width: 250px;
+  length: 180px;
+}
